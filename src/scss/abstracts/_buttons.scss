@@ -1,0 +1,50 @@
+//COLORS
+$base-color: #333;
+$color-white: #fff;
+$main-color: rgb(245, 23, 103);
+$color-grey: #f7f7f7;
+  
+button {
+    padding: 10px 30px;
+    margin-top: 2rem;
+    background-color: #fff;
+    color: white;
+    margin: 2rem .7rem .7rem 0;
+    display: inline-block;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn:active {
+  transform: translateY(3px);
+}
+
+.btn-primary {
+  color: $color-white;
+  background-color: $main-color;
+  border: 1px solid $main-color;
+}
+
+.btn-primary:hover {
+  opacity: 0.8;
+}
+
+.btn-ghost {
+  border: 1px solid $main-color;
+  color: $main-color;
+}
+
+.btn-ghost:hover {
+  background-color: $main-color;
+  color: $color-white;
+}
+
+
